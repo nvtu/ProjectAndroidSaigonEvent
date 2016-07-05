@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/locationCall"
+            android:icon="@drawable/calllimg"
+            android:title="Call" />
+        <item
+            android:id="@+id/locationFindWeb"
+            android:icon="@drawable/places_ic_search"
+            android:title="More Information" />
+
+        <item
+            android:id="@+id/locationFindMap"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Show Direction" />
+
+        <item
+            android:id="@+id/share_btn"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Share Image" />
+        <item
+            android:id="@+id/sendMessage"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Send Message" />
+        <item
+            android:id="@+id/logOutbtn"
+            android:icon="@drawable/places_ic_clear"
+            android:title="Log Out" />
+
+
+    </group>
+
+</menu>
